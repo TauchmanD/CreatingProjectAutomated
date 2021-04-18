@@ -8,7 +8,7 @@ PASSWORD = ""
 
 browser = webdriver.Chrome("chromedriver.exe")
 browser.get("https://github.com/new")
-path = "E:\\Programko"
+path = ""
 folder_name = sys.argv[1]
 os.mkdir(f"{path}\\{folder_name}")
 input = browser.find_element_by_xpath('//*[@id="login_field"]')

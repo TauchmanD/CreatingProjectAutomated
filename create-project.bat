@@ -1,5 +1,5 @@
 @echo off
-your directory with projects
+cd cesta ke složce s projekty
 create.py %1
 cd %1
 echo > README.md
